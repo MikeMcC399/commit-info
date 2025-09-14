@@ -81,7 +81,6 @@ const getTimestamp = runGitCommand.bind(null, gitCommands.timestamp)
 const getRemoteOrigin = runGitCommand.bind(null, gitCommands.remoteOriginUrl)
 
 module.exports = {
-  runGitCommand,
   getGitBranch,
   getSubject,
   getBody,
