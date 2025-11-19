@@ -4,7 +4,6 @@ const la = require('lazy-ass')
 const is = require('check-more-types')
 const { mergeWith, or } = require('ramda')
 
-/* eslint-env mocha */
 describe('utils', () => {
   describe('getFields', () => {
     const { getFields } = require('./utils')

@@ -1,6 +1,5 @@
 'use strict'
 
-/* eslint-env mocha */
 const { commitInfo } = require('.')
 const { stubSpawnShellOnce } = require('stub-spawn-once')
 const snapshot = require('snap-shot-it')

@@ -8,7 +8,6 @@ const Promise = require('bluebird')
 const snapshot = require('snap-shot-it')
 const { join } = require('path')
 
-/* eslint-env mocha */
 describe('git-api', () => {
   const { gitCommands } = require('./git-api')
 
